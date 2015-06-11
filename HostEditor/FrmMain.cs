@@ -264,6 +264,8 @@ namespace HostEditor
 			}
 
 			listViewHost.SetHostList(hostList);
+
+            LoadIPListFromSystem();
 		}
 
 
